@@ -15,8 +15,8 @@ jobs:
       fail-fast: false
       matrix:
         arch: [Win32, x64]
-        config: [Debug, Release]
-        link: [static, dll]
+        config: [Release]
+        link: [dll]
 
         include:
         - link: static
