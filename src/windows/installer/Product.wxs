@@ -686,6 +686,9 @@
                         <Component Id="ms" Guid="80E22B61-F278-44AB-BD66-5013E6568A26">
                             <File Id="ms" KeyPath="yes" Source="$(var.ProjectDir)\..\..\..\espeak-ng-data\lang\poz\ms" />
                         </Component>
+                        <Component Id="tdt" Guid="80E22B61-F278-44AB-BD66-5013E6568A27">
+                            <File Id="tdt" KeyPath="yes" Source="$(var.ProjectDir)\..\..\..\espeak-ng-data\lang\poz\tdt" />
+                        </Component>
                     </Directory>
                     <Directory Id="roa" Name="roa">
                         <Component Id="an" Guid="42AC8747-DD2B-4920-A67E-9DBDA5D2EF33">
@@ -1688,6 +1691,7 @@
       <ComponentRef Id="kk" />
       <ComponentRef Id="ky" />
       <ComponentRef Id="nog" />
+      <ComponentRef Id="tdt" />
       <ComponentRef Id="tk" />
       <ComponentRef Id="tr" />
       <ComponentRef Id="tt" />
