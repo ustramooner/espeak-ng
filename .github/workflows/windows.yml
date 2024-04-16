@@ -53,5 +53,5 @@ jobs:
       - name: Upload Release
         uses: actions/upload-artifact@v2
         with:
-          name: espeak-ng-data
+          name: release
           path: 'build/src/Release/**'
