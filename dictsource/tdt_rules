@@ -9,6 +9,10 @@
 // D  a digit
 // _ beginning or end of word
 
+// endings
+.L01 a am
+.L02 e em
+
 .group a
         a        a
         aa       ''a
@@ -69,8 +73,37 @@
         ff       f //English
 
 .group g
-        g        g
-        gg       g // English
+_) g (_       ge
+       g          g
+        g (g
+        gu (Y      g
+     a) gu (ent    gw
+ _alca) gue (t     gwe
+_apazi) gu (e      gw
+_apazí) gu (e      gw
+   _ar) gu (i      gw
+ averi) gu (e      gw
+ bilin) gu (A      gw
+ _biri) gu (i_     gw
+  enxa) gu (e      gw
+  enxá) gu (L02_   gw
+     i) gu (idade  gw
+  _lin) gu (A      gw
+   lin) gu (i      gw
+  _min) gu (e      gw
+  _pin) gu (im_    gw
+  _pin) gu (ins_   gw
+_redar) gu (A      gw
+   _sa) gu (i      gw
+   san) gu (ín     gw
+   san) gu (in     gw
+  stin) gu (A      gw
+   _un) gu (ento_  gw
+  xtin) gu (A      gw
+n) gu (A      gw        // eg: língua, etc.
+man) gu (ei     g         // mangueira
+gu (ém_    g         // eg: alguém, ninguém, etc...
+
 
 .group h
         h        h // Will pronounce even in Portuguese words
