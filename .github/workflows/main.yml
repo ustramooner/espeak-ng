@@ -2,12 +2,10 @@ name: main
 
 on:
   workflow_dispatch:
-  pull_request:
-    branches: [ piper_tetun ]
   push:
     branches: [ piper_tetun ]
-    # tags:
-    #   - '*'
+    tags:
+      - '*'
 
 jobs:
   create_release:
