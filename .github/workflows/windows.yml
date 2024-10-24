@@ -41,17 +41,17 @@ jobs:
       - name: build MSI
         run: msbuild src/windows/espeak-ng.sln
       - name: Upload MSI
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: MSI
           path: '**/*.msi'
       - name: Upload espeak-ng-data
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: espeak-ng-data
           path: 'build/espeak-ng-data/**'
       - name: Upload Release
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: release
           path: 'build/src/Release/**'
