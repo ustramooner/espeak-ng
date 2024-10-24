@@ -6,8 +6,8 @@ on:
     branches: [ piper_tetun ]
   push:
     branches: [ piper_tetun ]
-    tags:
-      - '*'
+    # tags:
+    #   - '*'
 
 jobs:
   create_release:
