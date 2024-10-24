@@ -27,7 +27,7 @@ jobs:
       - name: make
         run: cmake --build build --config Release
       - name: make check
-        run: ctest --test-dir build -Ttest -C Release -j1 --output-on-failure
+        run: ctest --test-dir build -T test -C Release -j1 --output-on-failure
       - name: Add msbuild to PATH
         uses: microsoft/setup-msbuild@v1.1
       - name: build MSI
