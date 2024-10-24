@@ -3,7 +3,6 @@ name: main
 on:
   workflow_dispatch:
   push:
-    branches: [ piper_tetun ]
     tags:
       - '*'
 
