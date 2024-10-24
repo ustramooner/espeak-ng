@@ -3,9 +3,9 @@ name: Windows
 on:
   workflow_dispatch:
   push:
-    branches: [ piper_tetun ]
+    branches: [ piper_tetun, piper_tetun3 ]
   pull_request:
-    branches: [ piper_tetun ]
+    branches: [ piper_tetun, piper_tetun3 ]
 
 jobs:
   build:
