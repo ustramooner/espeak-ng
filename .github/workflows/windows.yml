@@ -2,10 +2,10 @@ name: Windows
 
 on:
   workflow_dispatch:
-  push:
-    branches: [ piper_tetun ]
-  pull_request:
-    branches: [ piper_tetun ]
+  # pull_request:
+  #   branches: [ piper_tetun ]
+  # push:
+  #   branches: [ piper_tetun ]
 
 jobs:
   build:
